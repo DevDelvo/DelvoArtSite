@@ -1,0 +1,260 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,700italic,800);
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*TOP MENU BAR*/
+header ul {
+  list-style: none;
+  text-align: center;
+  background-color: #C8E6FF;
+}
+
+header ul li {
+  display: inline-block;
+  height: 50px;
+  width: 80px;
+
+  text-align: center;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  line-height: 48px;
+
+  padding: 0 20px 0 20px;
+}
+
+header ul li:hover {
+  background-color: #060708;
+  color: white;
+  cursor: pointer;
+}
+
+header ul li.current {
+  background-color: #060708;
+  color: white;
+}
+
+/*END OF NAVIGATING BAR*/
+
+#slides {
+  height: calc(100% -100px);
+  width: 100%;
+}
+
+#slides nav {
+  font-size: 50px;
+  position: fixed;
+  left: 90%;
+  top: 80%;
+  color: gray;
+  z-index: 100;
+}
+
+#slides nav i {
+  cursor: pointer;
+  opacity: 0.3;
+  transition: all 0.5s;
+}
+
+#slides nav i:hover {
+  color: #0E0604;
+  opacity: .75;
+}
+/*-----------------DOWN BUTTON-----------*/
+#slides .slide {
+  width: 100;
+  height: 100%;
+
+  transition: transform 1s;
+
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+/*----------------------WELCOME PAGE BEGIN----------------------*/
+#slides .slide h1 {
+  font-size: 50px;
+  font-weight: 500;
+  padding-top: 20px;
+}
+
+#slides .slide0 {
+  background-color: #D1EEF9;
+  position: relative;
+}
+
+#slides .slide0 #Introduction {
+  position: relative;
+  top: 24%;
+}
+
+#slides .slide0 h1 {
+  text-align: center;
+  color: #0B0209;
+  font-size: 80px;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  padding: 0;
+  font-weight: 500;
+  padding-top: 0;
+}
+
+#slides .slide0 h2 {
+  text-align: center;
+  color: #0B0209;
+  font-size: 35px;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-weight: 100;
+}
+
+#slides .slide0 img {
+  padding: 20px;
+  height: 300px;
+  width: 300px;
+}
+
+/*-----------------------WELCOME PAGE END---------------------*/
+
+/*------------------------SKETCHES page-----------------------*/
+#slides .slide1 {
+  display:none;
+  background-color: #D1EEF9;
+}
+
+#slides .slide1 h1 {
+  color: #100B03;
+}
+
+#slides .slide1 img {
+  padding: 20px;
+  height: 300px;
+  width: 300px;
+}
+
+/*------------------------SKETCHES END------------------------*/
+
+/*------------------------LINEART BEGIN-----------------------*/
+#slides .slide2  {
+  display:none;
+  background-color: #D1EEF9;
+}
+
+#slides .slide2 h1 {
+  color: #080108;
+}
+#slides .slide2 img {
+  padding: 20px;
+  width: 400px;
+  height: 400px;
+}
+/*--------------------------LINEART END----------------------*/
+
+/*---------------------------INK BEGIN-----------------------*/
+#slides .slide3 {
+  display:none;
+  background-color: #D1EEF9;
+}
+#slides .slide3 h1 {
+  color: #180312;
+}
+#slides .slide3 img {
+  padding: 20px;
+  width: 400px;
+  height: 400px;
+}
+/*---------------------------INK END-------------------------*/
+/*---------------------------DIGITAL ART---------------------*/
+#slides .slide4 {
+  display:none;
+  background-color: #D1EEF9;
+}
+#slides .slide4 h1 {
+  color: #070402;
+}
+#slides .slide4 img {
+  padding: 20px;
+  height: 400px;
+  width: 400px;
+}
+/*-------------------------DIGITAL ART END--------------------*/
+
+/*--------------------------CONTACT BEGIN----------------------*/
+#slides .slide5 {
+  display:none;
+  background-color: #235F8D;
+}
+
+#slides .slide5 h1 {
+  font-size: 50px;
+  color: #EAF7CA;
+}
+
+#slides .slide5 h3 {
+  font-size: 20px;
+  color: #EAF7CA;
+  padding-top: 20px;
+}
+
+#slides .slide5 ul {
+  list-style: none;
+  padding-top: 20px;
+}
+
+#slides .slide5 ul a {
+  color: #EAF7CA;
+  text-decoration: none;
+}
+
+#slides .slide5 li{
+  font-size: 30px;
+  font-weight: 100;
+
+  padding: 5px;
+  margin: 10px auto;
+  border: 1px solid #EAF7CA;
+
+  width: 200px;
+}
+
+#slides .slide5 li:hover {
+  background-color: #5C9FD2;
+}
+
+/*--------------------------CONTACT END------------------------*/
+
+
+/*--------------------FOOTER BEGIN-----------------*/
+footer {
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  line-height: 48px;
+}
+
+footer p {
+  float: left;
+  margin-left: 20px;
+}
+
+footer #links {
+  float: right;
+  font-size: 30px;
+  margin-right: 20px;
+}
+
+footer #links a {
+  color: #000000;
+}
+
+footer #links i {
+  opacity: 0.3;
+}
+
+footer #links i:hover {
+  opacity: 1;
+}
+/*--------------------FOOTER END-------------------*/
